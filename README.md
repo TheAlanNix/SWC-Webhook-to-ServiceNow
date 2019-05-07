@@ -46,6 +46,6 @@ In Stealthwatch Cloud, follow the steps below to finish configuration.
 
 This should send a test event to your Lambda function, and create an event in ServiceNow.
 
-> **NOTE:** If the webhook fails, you can click on the "Recent Deliveries" entry in the Stealthwatch Cloud UI to see the request and response, and even re-send the webhook.
+> **NOTE:** If the webhook fails, you can click on the "Recent Deliveries" entry in the Stealthwatch Cloud UI to see the request and response, and even re-send the webhook.  **It often takes a few minutes for the Lambda function to fully initialize.**
 
 Future events will perform the same task, but will populate the ServiceNow incident with real event data.
